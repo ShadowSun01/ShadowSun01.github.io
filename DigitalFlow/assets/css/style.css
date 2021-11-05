@@ -982,7 +982,7 @@ body.show-sidebar .nav {
     padding-top: 25rem;
     max-width: 100%;
     min-height: 100vh;
-    background: url("/DigitalFlow/assets/images/preview/background.jpg") center no-repeat;
+    background: url("assets/images/preview/background.jpg") center no-repeat;
 }
 
 .preview__title,
