@@ -1146,7 +1146,7 @@ body.show-sidebar .nav {
 
 .description {
   height: 100vh;
-  background: #F1F1F1 url("/assets/images/description/1.jpg") left no-repeat;
+  background: #F1F1F1 url("../images/description/1.jpg") left no-repeat;
   background-size: cover;
 }
 
