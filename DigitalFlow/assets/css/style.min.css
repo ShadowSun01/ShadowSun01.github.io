@@ -1278,7 +1278,7 @@ body.show-sidebar .nav {
 .benefits {
   padding-top: 35rem;
   min-height: 100vh;
-  background: url("/assets/images/benefits/background.jpg") center no-repeat;
+  background: url("../images/benefits/background.jpg") center no-repeat;
   background-size: cover;
 }
 @media screen and (max-width: 991px) {
