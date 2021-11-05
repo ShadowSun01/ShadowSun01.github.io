@@ -913,7 +913,7 @@ body.show-sidebar .nav {
   padding-top: 25rem;
   max-width: 100%;
   min-height: 100vh;
-  background: url("/assets/images/preview/background.jpg") no-repeat;
+  background: url("assets/images/preview/background.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
