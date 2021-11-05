@@ -729,7 +729,7 @@ body.show-sidebar .nav-mobile {
 
 .preview {
   padding-top: 5rem;
-  background: url("/assets/images/preview/background.jpg") center no-repeat;
+  background: url("../images/preview/background.jpg") center no-repeat;
   height: 80rem;
   margin-bottom: 37.1rem;
   position: relative;
@@ -1078,7 +1078,7 @@ body.show-sidebar .nav-mobile {
 }
 
 .share {
-  background: url("/assets/images/share/bg.jpg") center no-repeat;
+  background: url("../images/share/bg.jpg") center no-repeat;
   background-size: cover;
   height: 35.7rem;
   display: flex;
@@ -1243,7 +1243,7 @@ body.show-sidebar .nav-mobile {
 }
 
 .menu {
-  background-image: url("/assets/images/menu/menu-background.jpg");
+  background-image: url("../images/menu/menu-background.jpg");
   background-position: center;
   background-size: cover;
   padding-bottom: 22.6rem;
@@ -1494,7 +1494,10 @@ body.show-sidebar .nav-mobile {
   display: block;
   max-width: 100%;
 }
-
+.footer{
+  background: url('../images/footer/background.jpg') center no-repeat;
+  background-size: cover;
+}
 .footer img {
   max-width: 100%;
 }
