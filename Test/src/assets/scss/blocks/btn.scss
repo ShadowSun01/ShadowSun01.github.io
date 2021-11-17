@@ -1,0 +1,30 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: $blue;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    padding: 1.9rem 3.3rem;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $white;
+    border-radius: 3.5rem;
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: lighten($blue, 8%);
+    }
+
+
+    @include breakpoint($tablet-md) {
+        margin: 0 auto;
+    }
+}
+
+ button.btn {
+     padding: 1.7rem 3.5rem;
+ }

@@ -1,0 +1,42 @@
+.clients {
+    position: relative;
+
+    &__inner {
+        padding-left: 5rem;
+    }
+
+    &__item {
+        display: flex !important;
+
+
+        @include breakpoint($tablet-md){
+            flex-direction: column;
+        }
+    }
+
+    &__info {
+        padding-top: 2rem;
+        margin-right: 8.5rem;
+        max-width: 36.2rem;
+
+        @include breakpoint($tablet-bp){
+            margin-right: 0;
+        }
+        @include breakpoint($tablet-md){
+            margin-bottom: 5rem;
+        }
+    }
+
+    &__name {
+        font-size: 1.8rem;
+    }
+
+    &__img{
+        img{
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}

@@ -1,0 +1,40 @@
+.slider {
+    margin-bottom: 12.6rem;
+    padding-left: 17rem;
+
+    @include breakpoint($tablet-bp){
+        padding-left: 3rem;
+    }
+
+    &__item {
+        margin: 0 10px;
+        cursor: pointer;
+
+        &-content {
+            max-width: 44rem;
+        }
+
+        &-img {
+            margin-bottom: 2.5rem;
+            position: relative;
+            max-width: 44rem;
+            height: 32rem;
+            background-color: $gray;
+
+            img {
+                position: absolute;
+                top: -2rem;
+                left: 50%;
+                z-index: 100;
+                transform: translateX(-50%);
+            }
+        }
+
+        &-title {
+            margin-bottom: 1.1rem;
+            font-size: 2.4rem;
+            font-weight: 800;
+        }
+    }
+
+}

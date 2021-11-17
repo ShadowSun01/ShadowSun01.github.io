@@ -1,0 +1,87 @@
+.application {
+    background-color: $black;
+    padding: 6.6rem 0 12.5rem;
+    margin-bottom: 35.3rem;
+    position: relative;
+
+
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-row-gap: 8rem;
+
+        @include breakpoint($tablet-md) {
+            grid-row-gap: 4rem;
+
+        }
+    }
+
+    &__item {
+        display: flex;
+        color: $white;
+        justify-self: center;
+        max-width: 36.5rem;
+        width: 100%;
+
+
+
+
+        &-num {
+            color: #3F4146;
+            font-size: 5rem;
+            font-weight: 800;
+            margin-right: 3rem;
+            transform: translateY(-10px);
+
+            @include breakpoint($tablet-md) {
+                font-size: 4.5rem;
+            }
+        }
+
+        &-content {
+            max-width: 30rem;
+            @include breakpoint($tablet-md) {
+                max-width: 24rem;
+            }
+        }
+
+        &-title {
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+            color: #c4c4c4;
+            @include breakpoint($tablet-md) {
+                font-size: 1.8rem;
+            }
+        }
+
+        &-subtitle {
+            font-size: 1.5rem;
+            color: #727272;
+        }
+
+    }
+
+
+    &__img {
+        position: absolute;
+        bottom: -15.5rem;
+        left: 50%;
+        z-index: 100;
+        transform: translateX(-50%);
+    }
+}
+
+.application__img {
+    background: url("../images/application/Vector.svg") center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: -209px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.f {
+    width: 1920px;
+    height: 209px;
+}
